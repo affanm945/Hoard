@@ -1,0 +1,12 @@
+.side{
+    width: 220px;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.nav-links {
+    list-style: none,;
+    padding: 0
+}

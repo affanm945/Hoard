@@ -1,0 +1,153 @@
+.add-inventory-page {
+  padding: 36px 48px;
+}
+
+.add-inventory-header {
+  margin-bottom: 28px;
+}
+
+.add-inventory-header h1 {
+  margin: 0 0 6px;
+  color: #020617;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.add-inventory-header p {
+  margin: 0;
+  color: #334155;
+  font-size: 18px;
+}
+
+.add-inventory-form {
+  max-width: 1120px;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #dbe3ef;
+  border-radius: 18px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group.full {
+  width: 100%;
+}
+
+.form-group.half {
+  width: 50%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form-group label span {
+  color: #ef4444;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  height: 50px;
+  padding: 0 16px;
+  color: #0f172a;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+  font-size: 18px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.16);
+}
+
+.vendor-box {
+  margin-top: 6px;
+  padding: 22px;
+  background: #f8fafc;
+  border: 1px solid #dbe3ef;
+  border-radius: 14px;
+}
+
+.vendor-box h3 {
+  margin: 0 0 18px;
+  color: #52667f;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+  margin-top: 30px;
+  padding-top: 26px;
+  border-top: 1px solid #dbe3ef;
+}
+
+.cancel-btn,
+.create-btn {
+  height: 48px;
+  padding: 0 22px;
+  border-radius: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  color: #020617;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+}
+
+.create-btn {
+  color: #ffffff;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .add-inventory-page {
+    padding: 24px 18px;
+  }
+
+  .add-inventory-form {
+    padding: 20px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .form-group.half {
+    width: 100%;
+  }
+
+  .form-actions {
+    flex-direction: column-reverse;
+  }
+
+  .cancel-btn,
+  .create-btn {
+    width: 100%;
+  }
+}

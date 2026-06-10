@@ -1,0 +1,11 @@
+.sidebar {
+    display: flex;
+}
+
+.header {
+    flex: 1;
+}
+
+.main {
+    padding: 20px;
+}
